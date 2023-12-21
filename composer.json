@@ -1,0 +1,21 @@
+{
+    "name": "daniel/yt-backend",
+    "description": "asddaniel youtube package",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Daniel\\YtBackend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniel Assani",
+            "email": "84669598+asddaniel@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "athlon1600/youtube-downloader": "dev-master"
+    }
+}

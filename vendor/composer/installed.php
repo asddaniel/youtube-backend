@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => 'daniel/yt-backend',
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'reference' => NULL,
+        'type' => 'project',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'athlon1600/php-curl-client' => array(
+            'pretty_version' => 'v1.2.0',
+            'version' => '1.2.0.0',
+            'reference' => 'eff146de74ee3a4a9a7de1511e300b65b5c8efd2',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../athlon1600/php-curl-client',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'athlon1600/php-curl-file-downloader' => array(
+            'pretty_version' => 'v1.0.2',
+            'version' => '1.0.2.0',
+            'reference' => '66391a0b89e2ed8b42ed6341e111f180697e0c5f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../athlon1600/php-curl-file-downloader',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'athlon1600/youtube-downloader' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '215b2b74f5eea5a1e8c1b9ada28c72ca35e5ab4f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../athlon1600/youtube-downloader',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'daniel/yt-backend' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'reference' => NULL,
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
